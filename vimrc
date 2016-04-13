@@ -46,7 +46,7 @@ set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set expandtab
-
+let mapleader = "\<Space>"
 nnoremap <up> <nop>
 nnoremap <down> <nop>
 nnoremap <left> <nop>
@@ -55,3 +55,7 @@ inoremap <up> <nop>
 inoremap <down> <nop>
 inoremap <left> <nop>
 inoremap <right> <nop>
+
+nnoremap <leader>d "_d
+vnoremap <leader>d "_d
+vnoremap <leader>p "_dP
