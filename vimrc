@@ -47,15 +47,9 @@ set shiftwidth=4
 set softtabstop=4
 set expandtab
 let mapleader = "\<Space>"
-nnoremap <up> <nop>
-nnoremap <down> <nop>
-nnoremap <left> <nop>
-nnoremap <right> <nop>
-inoremap <up> <nop>
-inoremap <down> <nop>
-inoremap <left> <nop>
-inoremap <right> <nop>
 
+nnoremap <F3> :set hlsearch!<CR>
+nnoremap <leader>n :set nonumber!<CR>
 nnoremap <leader>d "_d
 vnoremap <leader>d "_d
 vnoremap <leader>p "_dP
