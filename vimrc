@@ -41,7 +41,7 @@ colorscheme gruvbox
 let g:gruvbox_termcolors=256
 let g:solarized_termcolors=256
 set number
-set shell=/bin/zsh
+#set shell=/bin/zsh
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
